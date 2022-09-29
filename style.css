@@ -1,5 +1,5 @@
 body {
-	background-color: lightblue;
+	background-color: lightseagreen;
 }
 p {
 	font-size: 20;
@@ -7,11 +7,11 @@ p {
 }
 p.tytul {
 	font-size: 100;
-	color: red;
+	color: aquamarine;
 }
 p.ostatnie {
 	font-size: 50;
-	color: yellow;
+	color: greenyellow;
 }
 button.menu {
 	background-color:green;
