@@ -12,7 +12,22 @@
 				<p>Komiksy można tylko przeczytać</p>
 				<p>a nie wziąć do siebie!</p>
 				<div style='position:absolute;left:3%;top:20%;'><img src='bopcodzienna27092022.png'></div>
-				<div style='position:absolute;right:3%;top:20%;'><img src='code.png'></div>
+				<div style='position:absolute;right:3%;top:20%;'><script>
+				function kod(ilosc) {
+				var ostatecznykod = '';
+				var znaki = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+				var dlugosc = 36;
+				for ( var numer = 0; numer < ilosc; numer++) {
+				ostatecznykod += znaki.charAt(Math.floor(Math.random() *
+				dlugosc));
+				console.log(dlugosc);
+				}
+				document.getElementById("siema123").innerHTML = 'Kod to: ' + ostatecznykod
+				}
+				</script>
+				<p id='siema123'>W tym miejscu pojawi się wygenerowany kod.</p>
+				<button type='button' onclick='kod(5)'>GENERUJ</button>
+				</div>
 				<div style='position:absolute;right:3%;top:40%;'><img src='menu.png'></div>
 				<div style='position:absolute;right:5%;top:50%;'>
 					<a href='index.html'>
