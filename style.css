@@ -9,6 +9,10 @@ p.tytul {
 	font-size: 100;
 	color: aquamarine;
 }
+p.code {
+	font-size: 30;
+	color: mediumblue;
+}
 p.ostatnie {
 	font-size: 50;
 	color: greenyellow;
