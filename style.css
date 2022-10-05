@@ -18,3 +18,8 @@ button.menu {
 	font-size: 30;
 	color: purple;
 }
+button.gen {
+	background-color: deepskyblue;
+	font-size: 30;
+	color: darkturquoise;
+}
